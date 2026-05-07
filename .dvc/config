@@ -1,5 +1,5 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = gs://lab-21-bucket/dvc
+    url = gs://lab-21-bucket-cicd/dvc
     credentialpath = ../sa-key.json
