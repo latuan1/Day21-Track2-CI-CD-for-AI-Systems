@@ -38,6 +38,8 @@ def train(
     X_eval = df_eval.drop(columns=["target"])
     y_eval = df_eval["target"]
 
+    mlflow.set_experiment("wine_quality")
+
     with mlflow.start_run():
 
         # TODO 3: Ghi nhan cac sieu tham so
